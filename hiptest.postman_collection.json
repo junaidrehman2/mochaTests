@@ -1,0 +1,206 @@
+{
+	"info": {
+		"name": "hiptest",
+		"_postman_id": "a801fc50-e3c0-d143-f4f6-fffea4c9d840",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create test run",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/vnd.api+json; version=1"
+					},
+					{
+						"key": "access-token",
+						"value": "Toi8ENseYIl4tdWaddLwlg"
+					},
+					{
+						"key": "uid",
+						"value": "jur550@gmail.com"
+					},
+					{
+						"key": "client",
+						"value": "gXzotQpPxAa7VEIKpHG2GQ"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\": {\"attributes\": {\"name\": \"Sprint 1\"} } }"
+				},
+				"url": {
+					"raw": "https://app.hiptest.com/api/projects/86205/test_runs",
+					"protocol": "https",
+					"host": [
+						"app",
+						"hiptest",
+						"com"
+					],
+					"path": [
+						"api",
+						"projects",
+						"86205",
+						"test_runs"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "add test result",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/vnd.api+json; version=1"
+					},
+					{
+						"key": "access-token",
+						"value": "Toi8ENseYIl4tdWaddLwlg"
+					},
+					{
+						"key": "uid",
+						"value": "jur550@gmail.com"
+					},
+					{
+						"key": "client",
+						"value": "gXzotQpPxAa7VEIKpHG2GQ"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\": {\"attributes\": {\"name\": \"Sprint 1\"} } }"
+				},
+				"url": {
+					"raw": "https://app.hiptest.com/api/projects/86205/test_runs",
+					"protocol": "https",
+					"host": [
+						"app",
+						"hiptest",
+						"com"
+					],
+					"path": [
+						"api",
+						"projects",
+						"86205",
+						"test_runs"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update test result",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/vnd.api+json; version=1"
+					},
+					{
+						"key": "access-token",
+						"value": "Toi8ENseYIl4tdWaddLwlg"
+					},
+					{
+						"key": "uid",
+						"value": "jur550@gmail.com"
+					},
+					{
+						"key": "client",
+						"value": "gXzotQpPxAa7VEIKpHG2GQ"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\": {\"attributes\": {\"name\": \"Sprint 1\"} } }"
+				},
+				"url": {
+					"raw": "https://app.hiptest.com/api/projects/86205/test_runs",
+					"protocol": "https",
+					"host": [
+						"app",
+						"hiptest",
+						"com"
+					],
+					"path": [
+						"api",
+						"projects",
+						"86205",
+						"test_runs"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get tests of a test run",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/vnd.api+json; version=1"
+					},
+					{
+						"key": "access-token",
+						"value": "Toi8ENseYIl4tdWaddLwlg"
+					},
+					{
+						"key": "uid",
+						"value": "jur550@gmail.com"
+					},
+					{
+						"key": "client",
+						"value": "gXzotQpPxAa7VEIKpHG2GQ"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\": {\"attributes\": {\"name\": \"Sprint 1\"} } }"
+				},
+				"url": {
+					"raw": "https://app.hiptest.com/api/projects/86205/test_runs",
+					"protocol": "https",
+					"host": [
+						"app",
+						"hiptest",
+						"com"
+					],
+					"path": [
+						"api",
+						"projects",
+						"86205",
+						"test_runs"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
